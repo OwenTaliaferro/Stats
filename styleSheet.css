@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 1.25rem; 
+    width: 6.25rem;
+    height: auto;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0.25rem hsl(0, 0%, 0%); 
+    width: 37.5rem;
+  }
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  select {
+    padding: 0.75rem; 
+    width: 100%; 
+    border: 0.125rem solid #0076B6; 
+    border-radius: 0.5rem;
+    background-color: #f0f8ff; 
+    font-size: 1.125rem; 
+    color: #333; 
+    cursor: pointer; 
+    box-shadow: 0.25rem hsl(0, 0%, 0%); 
+  }
+  
+  select:hover {
+    background-color: #f7faf6;
+    border-color: #0076B6; 
+  }
+  
+  select:focus {
+    outline: none; 
+    border-color: #0076B6; 
+    box-shadow: 0.5rem #003957; 
+  }
+  
+  .stats-container {
+    margin-top: 1.25rem;
+  }
+  
+  .position-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .position-group h2 {
+    color: #0076B6;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+    border-bottom: 0.0625rem solid #ddd;
+    padding-bottom: 0.3125rem;
+  }
+  
+  .player-card {
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #0076B6;
+    border-radius: 0.3125rem;
+    background-color: #f9f9f9;
+  }
+  
+  .player-card p {
+    margin: 0.3125rem 0;
+  }
+  
